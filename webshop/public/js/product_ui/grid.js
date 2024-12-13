@@ -133,7 +133,7 @@ webshop.ProductGrid = class {
 					<s>${ item.formatted_mrp ? item.formatted_mrp.replace(/ +/g, "") : "" }</s>
 				</small>
 				<small class="ml-1 product-info-green">
-					${ item.discount } OFF
+					${ item.discount } ${ __("OFF") }
 				</small>
 			`;
 		}
